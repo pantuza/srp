@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "A+mEg0g/lrx3STQDcZNrxeCyzzM=",
+			"path": "google.golang.org/grpc",
+			"revision": "35aeaeb587a630fded0670e42e084e2285f4c050",
+			"revisionTime": "2018-04-12T22:11:22Z"
+		}
+	],
+	"rootPath": "github.com/pantuza/srp"
+}
