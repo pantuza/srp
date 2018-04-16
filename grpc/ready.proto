@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package srp;
+package grpc;
 
 
 service SRP {
