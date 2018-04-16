@@ -46,9 +46,9 @@ clean:
 	@rm -rvf main
 
 
-proto: ready.proto
-	@$(PROTOC) ready.proto --go_out=.
-	@$(PROTOC) ready.proto --go_out=plugins=grpc:.
+proto: grpc/ready.proto
+	@$(PROTOC) $^ --go_out=./grpc
+	@$(PROTOC) $^ --go_out=plugins=grpc:.
 
 
 fmt:
