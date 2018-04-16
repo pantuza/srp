@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package srp;
+
+
+service SRP {
+    rpc Ready (ReadyRequest) returns (ReadyResponse) {}
+}
+
+
+message ReadyRequest {}
+
+
+message ReadyResponse {
+    bool ready = 1;
+}
